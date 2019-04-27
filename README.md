@@ -34,7 +34,4 @@ for a given sheet etc.
 
 ## Special Note
 Excel protection is a bit of a joke as it can be bypassed fairly easily without
-a password. Therefore it is pointless to perform complicated encryption on the password i.e.
-if the user is smart enough to figure out the storage location and unjumble the password then
-they most likely are capable of bypassing Excel's protection all together, assuming you have
-locked this module and they are not aware of the inner workings.
+a password. Therefore it is pointless to perform complicated encryption on the password.
