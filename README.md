@@ -18,7 +18,7 @@ password.
     currently stored, returns an empty string.
     
     changePassword()
-    Calls the CredentialsFrm, allowing using to change/set the stored password for the
+    Calls the CredentialsFrm, allowing user to change/set the stored password for the
     workbook. Create a button and link it's call macro to this function if you want the
     user to be able to change/set the password. If you don't want the user to be able to
     change the password this procedure can be invoked manaully through the VBA editor.
