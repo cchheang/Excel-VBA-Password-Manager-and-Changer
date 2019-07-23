@@ -76,12 +76,14 @@ Private Sub pwSetButton_Click()
     On Error GoTo handler
     
     'Loop through all sheets removing old password and replacing with new password
+    Application.ScreenUpdating = False
     For Each sh In ThisWorkbook.Worksheets
         If (sh.ProtectContents = True) Then
             sh.Unprotect password:=currentPW
             sh.Protect password:=newPW1
         End If
     Next sh
+    Application.ScreenUpdating = True
     
     '////////////////////////////////////////////////////////////
     '////////////////////////////////////////////////////////////
